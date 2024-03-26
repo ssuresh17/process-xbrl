@@ -64,6 +64,6 @@ class ExtractComments:
             print('There are no comments in this document.')
         except Exception as e:
             return None
-        print(' Comment Extracted.',len(soup.find_all('p')) )
+        print(' Comment Extracted.')
         return result
 
